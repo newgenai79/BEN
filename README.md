@@ -6,10 +6,6 @@ BEN is a deep learning model designed to automatically remove backgrounds from i
 - Follow on X: https://x.com/PramaResearch/
 
 
-## Download model
-https://huggingface.co/PramaLLC/BEN/resolve/main/BEN_Base.pth?download=true
-
-
 # BEN SOA Benchmarks on Disk 5k Eval
 
 ![Demo Results](https://huggingface.co/PramaLLC/BEN/resolve/main/demo.jpg?download=true)
@@ -53,5 +49,45 @@ https://huggingface.co/PramaLLC/BEN/resolve/main/BEN_Base.pth?download=true
 - Simple API for easy integration
 
 ## Installation
-1. Clone Repo
-2. Install requirements.txt
+Step 1: Clone the repository
+```	
+git clone https://github.com/newgenai79/BEN
+```
+
+Step 2: Navigate inside the cloned repository
+```
+cd BEN
+```
+
+Step 3: Create virtual environment
+```
+python -m venv venv
+```
+
+Step 4: Activate virtual environment
+```
+venv\scripts\activate
+```
+
+Step 5: Install wheel package
+```
+pip install wheel
+```
+
+Step 6: Install requirements
+```	
+pip install -r requirements.txt
+```
+
+Step 7: Download model
+https://huggingface.co/PramaLLC/BEN/resolve/main/BEN_Base.pth?download=true
+
+
+Step 8: Launch Gradio WebUI
+```	
+venv\scripts\activate
+```
+
+```
+python app.py
+```

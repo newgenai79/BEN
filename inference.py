@@ -1,0 +1,18 @@
+import model
+from PIL import Image
+import torch
+
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+file = "./00003-2140346310.png" # input image
+
+model = model.BEN_Base().to(device).eval() #init pipeline
+
+model.loadcheckpoints("./BEN_Base.pth")
+image = Image.open(file)
+mask, foreground = model.inference(image)
+
+mask.save("./mask.png")
+foreground.save("./foreground.png")
+print("Done")

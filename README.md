@@ -1,9 +1,9 @@
 # BEN - Background Erase Network (Beta Base Model)
 
 BEN is a deep learning model designed to automatically remove backgrounds from images, producing both a mask and a foreground image. 
-- For access to our commercial model email us at sales@pramadevelopment.com
-- Our website: https://pramadevelopment.com/
-- Follow us on X: https://x.com/PramaResearch/
+- For access to commercial model email at sales@pramadevelopment.com
+- Website: https://pramadevelopment.com/
+- Follow on X: https://x.com/PramaResearch/
 
 
 ## Download model

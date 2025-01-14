@@ -80,6 +80,7 @@ pip install -r requirements.txt
 ```
 
 Step 7: Download model
+
 https://huggingface.co/PramaLLC/BEN/resolve/main/BEN_Base.pth?download=true
 
 
